@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="left">
+            <a href="/">Manav Saraf</a>
+        </div>
+        <div class="right">
+            <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="mailto:manav.25bcs10602@sst.scaler.com">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Email</span>
+            </a>
+
+        </div>
+    </nav>
+
+    <main>
+        <!-- SECTION 1: About Me -->
+        <section class="About-Me">
+            <div class="picture">
+                <img src="image.jpeg" alt="Manav Saraf">
+            </div>
+            <div class="text">
+                <h2>Hi, I am Manav &#128075</h2>
+                <p>I am a passionate beginner in computer science, currently exploring the fascinating world of
+                    technology and programming. My journey started with curiosity about how computers work, and I've
+                    been diving deep into various aspects of the field. I have gained hands-on experience in web
+                    development, building responsive websites using HTML, CSS, and JavaScript. Additionally, I've been
+                    exploring the exciting domains of Artificial Intelligence and Machine Learning, working with
+                    algorithms and data to solve real-world problems. I enjoy tackling coding challenges and creating
+                    projects that combine creativity with technical skills. I'm always eager to learn new technologies
+                    and apply them in innovative ways..
+                </p>
+                <div class="links">
+
+                    <a href="#skills" style="color:darkorange; border:2px solid darkorange">
+
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#contact" style="border :2px solid lightskyblue">
+                        <i class="fa-solid fa-address-card"></i>
+                        <span>Contact</span>
+                    </a>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- SECTION 2: Skill / Projects -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati veniam maxime dolores laboriosam
+                totam, delectus nostrum error tenetur voluptatem dolorum ut nulla dolore labore qui aut voluptatibus
+                porro numquam quo.
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="html-logo.webp" alt="">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="css-logo.webp" alt="">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="javascript-logo.webp" alt="">
+                    <span>Javascript</span>
+                </div>
+
+            </div>
+        </section>
+
+        
+
+        <!-- SECTION: Projects -->
+<section class="projects-section" id="projects">
+  <h2>Projects</h2>
+  <div class="text">Simple, beginner-level builds to practice core concepts</div>
+
+  <div class="project-cards">
+    <!-- 1. Static Portfolio Page -->
+    <article class="project-card">
+      
+      <h3>Static Portfolio Page</h3>
+      <p>A single-page portfolio made with semantic HTML and basic CSS layout, focusing on headings, lists, links, and a clean section structure.</p>
+      <ul class="project-points">
+        <li>Semantic tags: header, nav, section, footer</li>
+        <li>Flexbox for simple alignment</li>
+        <li>Mobile-first spacing and readable text</li>
+      </ul>
+      <div class="project-tags">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">Accessibility</span>
+      </div>
+    </article>
+
+    <!-- 2. Color Theme Switcher -->
+    <article class="project-card">
+      
+      <h3>Color Theme Switcher</h3>
+      <p>A small toggle that switches between light and dark themes by updating CSS variables with a few lines of JavaScript.</p>
+      <ul class="project-points">
+        <li>Uses :root CSS custom properties</li>
+        <li>Toggle button with event listener</li>
+        <li>State saved with localStorage</li>
+      </ul>
+      <div class="project-tags">
+        <span class="tag">JavaScript</span>
+        <span class="tag">CSS Vars</span>
+        <span class="tag">localStorage</span>
+      </div>
+    </article>
+
+    <!-- 3. Basic To‑Do List -->
+    <article class="project-card">
+      
+      <h3>Basic To‑Do List</h3>
+      <p>A minimal list app to add, complete, and remove tasks, practicing DOM manipulation and simple data persistence.</p>
+      <ul class="project-points">
+        <li>Form submit → create list items</li>
+        <li>Click to mark complete</li>
+        <li>Persist tasks in localStorage</li>
+      </ul>
+      <div class="project-tags">
+        <span class="tag">DOM</span>
+        <span class="tag">Events</span>
+        <span class="tag">localStorage</span>
+      </div>
+    </article>
+
+    
+  
+</section>
+
+
+
+
+
+        <!-- SECTION 3: Contact -->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+                <div class="text">
+                    I'm always excited to connect with fellow developers, potential collaborators, or anyone interested
+                    in technology! Whether you want to discuss a project idea, share learning resources, or just have a
+                    chat about the latest trends in computer science, I'd love to hear from you. Feel free to reach out
+                    through the form below or connect with me on my social platforms. Let's build something amazing
+                    together!
+                </div>
+
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" name="" id="name">
+
+                    <label for="name">Email</label>
+                    <input type="email" name="" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea name="" id="message" cols="30" rows="10 "></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
